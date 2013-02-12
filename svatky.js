@@ -145,5 +145,5 @@ function onRequest(request, response) {
 }
 
 var server = module.exports = http.createServer(onRequest);
-
-server.listen(8888);
+var port = process.env.PORT || 8888;
+server.listen(port);
