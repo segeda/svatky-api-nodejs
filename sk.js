@@ -367,12 +367,12 @@
 
     var svatky = new Array();
     if (typeof result === "object") {
-		for (var svatek in result) {
-       		svatky.push({ "date": when, "name": result[svatek] });
-		}
+        for (var svatek in result) {
+            svatky.push({ "date": when, "name": result[svatek] });
+        }
     }
     if (typeof result === "string") {
-	    svatky.push({ "date": when, "name": result });
+        svatky.push({ "date": when, "name": result });
     }
 
     return svatky;
@@ -792,12 +792,12 @@ function who(who) {
 
     var svatky = new Array();
     if (typeof result === "object") {
-		for (var svatek in result) {
-       		svatky.push({ "date": result[svatek], "name": who });
-		}
+        for (var svatek in result) {
+            svatky.push({ "date": result[svatek], "name": who });
+        }
     }
     if (typeof result === "string") {
-	    svatky.push({ "date": result, "name": who });
+        svatky.push({ "date": result, "name": who });
     }
 
     return svatky;

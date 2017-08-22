@@ -63,7 +63,7 @@ function get_svatky(request) {
 
 	var now = new Date();
 
-	return lang.when((now.getDate() < 10 ? "0" : "") + now.getDate() + ((now.getMonth() + 1) < 10 ? "0" : "") + (now.getMonth() + 1));	
+	return lang.when((now.getDate() < 10 ? "0" : "") + now.getDate() + ((now.getMonth() + 1) < 10 ? "0" : "") + (now.getMonth() + 1));
 }
 
 function index(request, response) {
@@ -124,7 +124,7 @@ function json(request, response) {
 
 function onRequest(request, response) {
 	var pathname = url.parse(request.url).pathname;
-	switch(pathname) {
+	switch (pathname) {
 		case "/":
 			index(request, response);
 			break;
@@ -138,7 +138,7 @@ function onRequest(request, response) {
 			json(request, response);
 			break;
 		default:
-			response.writeHead(404, {"Content-Type": "text/plain"});
+			response.writeHead(404, { "Content-Type": "text/plain" });
 			response.write("404 Not found");
 			response.end();
 	}
