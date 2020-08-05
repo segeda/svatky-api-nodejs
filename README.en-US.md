@@ -3,6 +3,8 @@ svatky-api-nodejs
 
 [Svatky API](https://svatky.adresa.info/) - Find out which date in the year is your Name Day or who's Name Day is on a certain date.
 
+Read this in other languages: [Czech](README.md)
+
 This API only accpets **GET** requests with three parameters: date, name, lang.
 
 * lang -- Formatted to accept either cs or sk
