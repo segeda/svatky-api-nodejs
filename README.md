@@ -25,10 +25,11 @@ https://svatky.adresa.info/json?lang=cs&date=1505
 Below is the response format of the JSON, XML, and txt. When a GET request is succesful, you will see the data presented like this.
 
 ### json
-[{"date":  "2607",, "name": "Anna"}...]
+```[{"date":  "2607",, "name": "Anna"}...]```
 
 ### xml
 
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <svatky>
     <svatek>
@@ -37,6 +38,7 @@ Below is the response format of the JSON, XML, and txt. When a GET request is su
     </svatek>
     ...
 </svatky>
+```
                     
 ### txt
-2607;Anna
+```2607;Anna```
