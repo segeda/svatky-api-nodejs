@@ -16,7 +16,7 @@ This API only accept **GET** requests with three parameters: date, name, lang.
 * name -- Formatted for first names only. Ex: Michal, Anna, Karina
 
 
-For example, if we wanted to seach for when the Name Day is of Anna in JSON, we would set the parameters up like so:
+For example, if we wanted to search for when the Name Day is of Anna in JSON, we would set the parameters up like so:
 https://svatky.adresa.info/json?lang=cs&name=Anna
 
 If we wanted to know who is celebrating their Name Day on May 15th, we would set the parameters like so:
